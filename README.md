@@ -23,6 +23,16 @@ Music HUD 本身不限制谁能改播放队列——任何玩家都能点歌、�
 
 **默认名单只有 `LOU0122` 一个**，改 `musicguard/src/uno/xplus/musicguard/Allow.java` 重新编译即可。想让所有人都能用，那就别装这个模组——Music HUD 的默认行为就是人人可点。
 
+## 下载
+
+| 文件 | 端 | 从哪拿 |
+|---|---|---|
+| `xplus_musiccmd-1.3.0.jar` | 客户端 | 本仓库 Release |
+| `xplus_musicguard-1.1.0.jar` | 服务端 | 本仓库 Release |
+| `Music HUD 1.3.1+26.3` | 双端 | [Modrinth 官方页面](https://modrinth.com/mod/music-hud)（作者 indi.etern，LGPL-3.0） |
+
+Music HUD 本体是别人做的，这里只放指向官方页面的链接，不重复分发它的 jar——官方页面本身支持 26.3，直接下最新版就行。
+
 ## 依赖
 
 - Minecraft **26.3**
