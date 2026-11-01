@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xplus_musiccmd",
+  "version": "1.3.0",
+  "name": "XPLUS /music",
+  "description": "客户端指令 /music 打开 Music HUD 界面",
+  "authors": ["XPLUS"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "uno.xplus.musiccmd.MusicCmd"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "*",
+    "fabric-api": "*",
+    "music_hud": "*"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "xplus_musicguard",
+  "version": "1.1.0",
+  "name": "XPLUS Music Guard",
+  "description": "只允许白名单玩家控制 Music HUD 的播放队列",
+  "authors": ["XPLUS"],
+  "environment": "server",
+  "depends": {
+    "music_hud": "*"
+  },
+  "mixins": [
+    "musicguard.mixins.json"
+  ]
+}
