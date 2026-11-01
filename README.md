@@ -25,13 +25,15 @@ Music HUD 本身不限制谁能改播放队列——任何玩家都能点歌、�
 
 ## 下载
 
-| 文件 | 端 | 从哪拿 |
-|---|---|---|
-| `xplus_musiccmd-1.3.0.jar` | 客户端 | 本仓库 Release |
-| `xplus_musicguard-1.1.0.jar` | 服务端 | 本仓库 Release |
-| `Music HUD 1.3.1+26.3` | 双端 | [Modrinth 官方页面](https://modrinth.com/mod/music-hud)（作者 indi.etern，LGPL-3.0） |
+全部在本仓库的 [Release v1.0.0](https://github.com/LOU20202020/xplus-music-addons/releases/tag/v1.0.0) 里：
 
-Music HUD 本体是别人做的，这里只放指向官方页面的链接，不重复分发它的 jar——官方页面本身支持 26.3，直接下最新版就行。
+| 文件 | 端 | 说明 |
+|---|---|---|
+| `MusicHUD-1.3.1-mc26.3.jar` | 双端 | Music HUD 本体，**第三方模组**，作者 indi.etern，LGPL-3.0，原版可从 [Modrinth](https://modrinth.com/mod/music-hud) 获取 |
+| `xplus_musiccmd-1.3.0.jar` | 客户端 | 本仓库源码编译，`/music` 指令 |
+| `xplus_musicguard-1.1.0.jar` | 服务端 | 本仓库源码编译，点歌白名单 |
+
+`MusicHUD-1.3.1-mc26.3.jar` 只是为了让朋友一个链接下完，版权归原作者；如果官方更新了版本，请以 Modrinth 上的为准。
 
 ## 依赖
 
